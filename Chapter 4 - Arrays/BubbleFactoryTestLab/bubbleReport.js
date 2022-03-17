@@ -1,0 +1,16 @@
+// This code displays the score from each solution number.
+// The solution number is the same as the index from the array.
+
+let scores =    [60, 50, 60, 58, 54, 54,
+                 58, 50, 52, 54, 48, 69,
+                 34, 55, 51, 52, 44, 51,
+                 69, 64, 66, 55, 52, 61,
+                 46, 31, 57, 52, 44, 18,
+                 41, 53, 55, 61, 51, 44];
+
+let output;
+
+for(var i = 0; i < scores.length; i += 1) {
+    output = "Bubble Solution #" + i + " score: " + scores[i];
+    console.log(output);
+}
