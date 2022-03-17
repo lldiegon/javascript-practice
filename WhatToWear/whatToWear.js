@@ -13,6 +13,5 @@ function whatToWear(temp) {
     }
 }
 
-whatToWear(5);
-whatToWear(25);
-whatToWear(14);
+temperatuur = prompt("Wat is de temperatuur in graden Celcius?");
+whatToWear(temperatuur);
